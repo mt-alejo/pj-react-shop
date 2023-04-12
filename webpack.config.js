@@ -30,13 +30,20 @@ module.exports= {
             ]
         },
         {
-            test: /\.s[ac]ss$/i,
+            test: /\.(css|s[ac]ss)$/i,            
             use: [
                 "style-loader",
                 "css-loader",
                 "sass-loader"
             ]
-        }
+        },
+        {
+            test: /\.(png|jpg|svg|jpeg|webp)$/,
+            type: 'asset/resource',
+            generator: {
+               filename: 'images/[hash]-[name].[ext]',	
+            }
+         }
     ]
    },
    plugins:[
