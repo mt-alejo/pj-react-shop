@@ -1,8 +1,14 @@
 import React from "react";
 import Header from "../components/Header";
+import Body from "../containers/Body";
 
 const Home = () => {
-  return <Header />;
+  return (
+    <React.Fragment>
+      <Header />
+      <Body />
+    </React.Fragment>
+  );
 };
 
 export default Home;
