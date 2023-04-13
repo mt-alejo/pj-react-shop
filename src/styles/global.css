@@ -3,3 +3,17 @@ body {
 margin: 0;
 font-family: 'Quicksand', sans-serif;
 }
+
+.logo {
+    width: 150px;
+    justify-self: center;
+    display: none;
+  }
+
+  @media (max-width: 640px) {
+    .logo {
+      display: block;
+    }
+  }
+ 
+ 
