@@ -9,6 +9,7 @@ import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import "../styles/global.css";
 import UserOrder from "../containers/UserOrder";
+import Orders from "../containers/Orders";
 
 const App = () => {
   return (
@@ -20,6 +21,8 @@ const App = () => {
           <Route exact path="/signin" element={<Signin />} />
           <Route exact path="/edit-account" element={<EditAccount />} />
           <Route exact path="/user-order" element={<UserOrder />} />
+          <Route exact path="/orders" element={<Orders />} />
+
           <Route
             exact
             path="/recovery-password"
