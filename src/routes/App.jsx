@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
-import Login from "../containers/Login";
+import NewPassword from "../containers/NewPassword";
 import Signin from "../containers/Signin";
 import EditAccount from "../containers/EditAccount";
 import RecoveryPassword from "../containers/RecoveryPassword";
@@ -17,7 +17,7 @@ const App = () => {
       <Layout>
         <Routes>
           <Route exact path="/" element={<Home />} />
-          <Route exact path="/login" element={<Login />} />
+          <Route exact path="/new-password" element={<NewPassword />} />
           <Route exact path="/signin" element={<Signin />} />
           <Route exact path="/edit-account" element={<EditAccount />} />
           <Route exact path="/user-order" element={<UserOrder />} />
