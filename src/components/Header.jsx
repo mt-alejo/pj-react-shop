@@ -6,9 +6,9 @@ import logo from "../../public/logos/logo_yard_sale.svg";
 const Header = () => {
   return (
     <nav>
-      <img src={icon} alt="menu" class="menu" />
-      <div class="navbar-left">
-        <img src={logo} alt="logo" class="logo" id="logo-nav" />
+      <img src={icon} alt="menu" className="menu" />
+      <div className="navbar-left">
+        <img src={logo} alt="logo" className="logo" id="logo-nav" />
         <ul>
           <li>
             <a href="/">All</a>
@@ -30,10 +30,10 @@ const Header = () => {
           </li>
         </ul>
       </div>
-      <div class="navbar-right">
+      <div className="navbar-right">
         <ul>
-          <li class="navbar-email">platzi@example.com</li>
-          <li class="navbar-shopping-cart">
+          <li className="navbar-email">platzi@examples.com</li>
+          <li className="navbar-shopping-cart">
             <img src="./icons/icon_shopping_cart.svg" alt="shopping cart" />
             <div>2</div>
           </li>
