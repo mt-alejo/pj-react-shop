@@ -3,12 +3,12 @@ import "../styles/UserOrder.scss";
 
 function UserOrder() {
   return (
-    <div className="my-order">
-      <div className="my-order-container">
-        <h1 className="title">My order</h1>
+    <div className="UserOrder">
+      <div className="UserOrder-container">
+        <h1 className="title">My UserOrder-order</h1>
 
-        <div className="my-order-content">
-          <div className="order">
+        <div className="UserOrder-content">
+          <div className="UserOrder-order">
             <p>
               <span>03.25.21</span>
               <span>6 articles</span>

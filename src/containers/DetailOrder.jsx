@@ -4,13 +4,13 @@ import icon from "../../public/icons/icon_close.png";
 
 function DetailOrder() {
   return (
-    <aside className="product-detail">
+    <aside className="DetailOrder">
       <div className="title-container">
         <img src="./icons/flechita.svg" alt="arrow" />
         <p className="title">My order</p>
       </div>
 
-      <div className="my-order-content">
+      <div className="DetailOrder-content">
         <div className="shopping-cart">
           <figure>
             <img

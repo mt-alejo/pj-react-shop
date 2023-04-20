@@ -4,12 +4,12 @@ import icon from "../../public/icons/flechita.svg";
 
 function Orders() {
   return (
-    <div className="my-order">
-      <div className="my-order-container">
+    <div className="Orders">
+      <div className="Orders-container">
         <h1 className="title">My orders</h1>
 
-        <div className="my-order-content">
-          <div className="order">
+        <div className="Orders-content">
+          <div className="Orders-order">
             <p>
               <span>03.25.21</span>
               <span>6 articles</span>
@@ -18,7 +18,7 @@ function Orders() {
             <img src={icon} alt="arrow" />
           </div>
 
-          <div className="order">
+          <div className="Orders-order">
             <p>
               <span>03.25.21</span>
               <span>6 articles</span>
@@ -27,7 +27,7 @@ function Orders() {
             <img src={icon} alt="arrow" />
           </div>
 
-          <div className="order">
+          <div className="Orders-order">
             <p>
               <span>03.25.21</span>
               <span>6 articles</span>
@@ -36,7 +36,7 @@ function Orders() {
             <img src={icon} alt="arrow" />
           </div>
 
-          <div className="order">
+          <div className="Orders-order">
             <p>
               <span>03.25.21</span>
               <span>6 articles</span>

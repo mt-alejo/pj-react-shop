@@ -3,8 +3,8 @@ import "../styles/Login.scss";
 
 function Login() {
   return (
-    <div class="login">
-      <div class="form-container">
+    <div class="Login">
+      <div class="Login-container">
         <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
 
         <form action="/" class="form">

@@ -3,8 +3,8 @@ import "../styles/EditAccount.scss";
 
 const EditAccount = () => {
   return (
-    <div className="login">
-      <div className="form-container">
+    <div className="EditAccount">
+      <div className="EditAccount-container">
         <h1 className="title">My account</h1>
         <form action="/" className="form">
           <div>

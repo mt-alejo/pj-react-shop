@@ -3,8 +3,8 @@ import "../styles/Signin.scss";
 
 const Signin = () => {
   return (
-    <div className="login">
-      <div className="form-container">
+    <div className="Signin">
+      <div className="Signin-container">
         <h1 className="title">My account</h1>
         <form action="/" className="form">
           <div>
