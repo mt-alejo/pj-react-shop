@@ -26,10 +26,13 @@ font-family: 'Quicksand', sans-serif;
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+    transition: .3s;
   }
 
   .primary-button:hover{
-    background-color: var(--hospital-green-hover)
+    background-color: var(--hospital-green-hover);
+    transition: .3s;
+
   }
 
   .secondary-button {
@@ -42,4 +45,12 @@ font-family: 'Quicksand', sans-serif;
     font-size: var(--md);
     font-weight: bold;
     height: 50px;
+    transition: .3s;
+
+  }
+
+  .secondary-button:hover{
+    background-color: var(--very-light-pink);
+    transition: .3s;
+
   }
