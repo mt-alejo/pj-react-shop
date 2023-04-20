@@ -11,6 +11,7 @@ import NotFound from "../pages/NotFound";
 import "../styles/global.css";
 import UserOrder from "../containers/UserOrder";
 import Orders from "../containers/Orders";
+import Toggles from "../pages/Toggles";
 
 const App = () => {
   return (
@@ -30,6 +31,7 @@ const App = () => {
             element={<RecoveryPassword />}
           />
           <Route exact path="*" element={<NotFound />} />
+          <Route exact path="/toggles" element={<Toggles />} />
         </Routes>
       </Layout>
     </BrowserRouter>
