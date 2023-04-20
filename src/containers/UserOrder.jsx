@@ -5,7 +5,7 @@ function UserOrder() {
   return (
     <div className="UserOrder">
       <div className="UserOrder-container">
-        <h1 className="title">My UserOrder-order</h1>
+        <h1 className="title">My order</h1>
 
         <div className="UserOrder-content">
           <div className="UserOrder-order">
@@ -24,7 +24,7 @@ function UserOrder() {
               />
             </figure>
             <p>Bike</p>
-            <p>$30,00</p>
+            <p>$30.00</p>
           </div>
 
           <div className="shopping-cart">
@@ -35,7 +35,7 @@ function UserOrder() {
               />
             </figure>
             <p>Bike</p>
-            <p>$30,00</p>
+            <p>$30.00</p>
           </div>
 
           <div className="shopping-cart">
@@ -46,7 +46,7 @@ function UserOrder() {
               />
             </figure>
             <p>Bike</p>
-            <p>$30,00</p>
+            <p>$30.00</p>
           </div>
         </div>
       </div>
