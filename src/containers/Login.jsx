@@ -5,7 +5,7 @@ function Login() {
   return (
     <div class="Login">
       <div class="Login-container">
-        <img src="./logos/logo_yard_sale.svg" alt="logo" class="logo" />
+        <img src="./logos/logo_yard_sale.svg" alt="logo" class="Login-logo" />
 
         <form action="/" class="form">
           <label for="email" class="label">
