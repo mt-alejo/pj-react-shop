@@ -12,6 +12,7 @@ import "../styles/global.css";
 import UserOrder from "../containers/UserOrder";
 import Orders from "../containers/Orders";
 import Toggles from "../pages/Toggles";
+import Asides from "../pages/Asides";
 
 const App = () => {
   return (
@@ -32,6 +33,7 @@ const App = () => {
           />
           <Route exact path="*" element={<NotFound />} />
           <Route exact path="/toggles" element={<Toggles />} />
+          <Route exact path="/asides" element={<Asides />} />
         </Routes>
       </Layout>
     </BrowserRouter>
