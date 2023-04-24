@@ -1,16 +1,16 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "../containers/Layout";
-import NewPassword from "../containers/NewPassword";
-import RecoveryPassword from "../containers/RecoveryPassword";
-import Login from "../containers/Login";
-import Signin from "../containers/Signin";
-import EditAccount from "../containers/EditAccount";
+import NewPassword from "../pages/NewPassword"
+import RecoveryPassword from "../pages/RecoveryPassword";
+import Login from "../pages/Login";
+import Signin from "../pages/Signin";
+import EditAccount from "../pages/EditAccount";
 import Home from "../pages/Home";
 import NotFound from "../pages/NotFound";
 import "../styles/global.css";
-import UserOrder from "../containers/UserOrder";
-import Orders from "../containers/Orders";
+import UserOrder from "../pages/UserOrder";
+import Orders from "../pages/Orders";
 import Toggles from "../pages/Toggles";
 import Asides from "../pages/Asides";
 
